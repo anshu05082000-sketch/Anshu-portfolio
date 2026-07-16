@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Services from "@/components/Services";
 
 
 
@@ -12,6 +13,8 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <Services />
+
 
       <main className="pt-20 min-h-screen bg-slate-950 text-white">
         <h1 className="text-5xl font-bold text-center mt-20">
