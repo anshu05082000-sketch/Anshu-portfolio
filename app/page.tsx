@@ -1,11 +1,14 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
+
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Hero />
+      <About />
 
       <main className="pt-20 min-h-screen bg-slate-950 text-white">
         <h1 className="text-5xl font-bold text-center mt-20">
