@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Services from "@/components/Services";
+import Projects from "@/components/Projects";
 
 
 
@@ -14,6 +15,7 @@ export default function Home() {
       <About />
       <Skills />
       <Services />
+      <Projects />
 
 
       <main className="pt-20 min-h-screen bg-slate-950 text-white">
