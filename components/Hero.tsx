@@ -4,12 +4,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Download } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="min-h-screen bg-slate-950 text-white flex items-center"
+      className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-blue-950 text-white flex items-center"
     >
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
@@ -21,16 +22,32 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <p className="text-blue-400 text-lg">
-            Hello, I'm
+            Hello, I&apos;m
           </p>
 
           <h1 className="text-5xl font-bold mt-2">
             Anshu Kumari
           </h1>
 
-          <h2 className="text-2xl text-slate-300 mt-4">
-            Frontend & WordPress Developer
-          </h2>
+          <h2 className="text-3xl mt-4 font-semibold text-blue-400">
+              <TypeAnimation
+                sequence={[
+                  "Frontend Developer",
+                  2000,
+                  "React Developer",
+                  2000,
+                  "Next.js Developer",
+                  2000,
+                  "WordPress Developer",
+                  2000,
+                  "Freelancer",
+                  2000,
+                ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
+          </h2> 
 
           <p className="mt-6 text-slate-400 leading-8">
             I build modern, responsive and user-friendly websites
@@ -70,6 +87,26 @@ export default function Hero() {
               <FaLinkedin />
             </a>
           </div>
+
+          <div className="grid grid-cols-3 gap-6 mt-12">
+
+            <div className="text-center">
+              <h3 className="text-3xl font-bold text-blue-400">2+</h3>
+              <p className="text-slate-400">Projects</p>
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-3xl font-bold text-blue-400">8+</h3>
+              <p className="text-slate-400">Technologies</p>
+            </div>
+
+            <div className="text-center">
+              <h3 className="text-3xl font-bold text-blue-400">Available</h3>
+              <p className="text-slate-400">For Freelance</p>
+            </div>
+
+          </div>
+
         </motion.div>
 
         {/* Right */}
@@ -81,10 +118,12 @@ export default function Hero() {
           className="flex justify-center"
         >
           <Image
-            src="/profile.jpg"
+            src="/profile.jpeg"
             alt="Anshu Kumari"
             width={360}
             height={360}
+            loading="eager"
+            priority
             className="rounded-full border-4 border-blue-500 shadow-2xl"
           />
         </motion.div>
@@ -93,3 +132,4 @@ export default function Hero() {
     </section>
   );
 }
+

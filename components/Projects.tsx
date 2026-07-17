@@ -15,21 +15,21 @@ const projects = [
     live: "#",
   },
   {
-    title: "Employee Management System",
-    image: "/projects/employee.png",
+    title: "My-Portfolio",
+    image: "/projects/portfolio.png",
     description:
-      "Employee CRUD application using HTML, CSS and JavaScript.",
-    tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/anshu05082000-sketch",
+      "Portfolio  using HTML, CSS, React, next.js, tailwind.css, and JavaScript.",
+    tech: ["HTML", "CSS", "Next.js", "Flask", "React", "JavaScript"],
+    github: "https://github.com/anshu05082000-sketch/Anshu-portfolio",
     live: "#",
   },
   {
     title: "Food Website",
-    image: "/projects/food.png",
+    image: "/projects/food-website.png",
     description:
       "Responsive food ordering website with modern UI.",
     tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/anshu05082000-sketch",
+    github: "https://github.com/anshu05082000-sketch/Food-website",
     live: "#",
   },
 ];
