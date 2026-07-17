@@ -6,8 +6,8 @@ import Services from "@/components/Services";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
 import WhyHireMe from "@/components/WhyHireMe";
+import Footer from "@/components/Footer";
 
 
 
@@ -22,7 +22,6 @@ export default function Home() {
       <Projects />
       <Experience />
       <Contact />
-      <Footer />
       <WhyHireMe /> 
 
 
@@ -31,6 +30,8 @@ export default function Home() {
           Welcome to My Portfolio
         </h1>
       </main>
+
+      <Footer /> 
     </>
   );
 }

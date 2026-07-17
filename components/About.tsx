@@ -25,7 +25,7 @@ export default function About() {
           transition={{ delay: .3 }}
           className="text-slate-300 text-lg leading-9 mt-10 text-center max-w-4xl mx-auto"
         >
-          I&apos;m Anshu Kumari, a Final Year B.Tech Computer Science student
+          I&apos;m Anshu Sharma, a Final Year B.Tech Computer Science student
           passionate about Frontend Development and WordPress.
 
           I build responsive, fast and modern websites using React.js,
