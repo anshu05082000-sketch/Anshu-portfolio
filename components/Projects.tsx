@@ -21,7 +21,7 @@ const projects = [
       "Portfolio  using HTML, CSS, React, next.js, tailwind.css, and JavaScript.",
     tech: ["HTML", "CSS", "Next.js", "Flask", "React", "JavaScript"],
     github: "https://github.com/anshu05082000-sketch/Anshu-portfolio",
-    live: "#",
+    live: "https://anshu-portfolio-3bx8.vercel.app/",
   },
   {
     title: "Food Website",
