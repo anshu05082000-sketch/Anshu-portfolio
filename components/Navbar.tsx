@@ -40,10 +40,6 @@ export default function Navbar() {
             <h1 className="text-xl font-bold text-white">
               Anshu Sharma
             </h1>
-
-            <p className="text-xs text-slate-400">
-              Frontend Developer
-            </p>
           </div>
         </Link>
 
